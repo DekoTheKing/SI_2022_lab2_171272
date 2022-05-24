@@ -39,5 +39,21 @@ import java.util.*;
             }
             return numMines;
         }
+
+        public static void main(String[] args) {
+
+            Scanner in = new Scanner(System.in);
+            int N = in.nextInt();
+            List ls = new ArrayList<>();
+
+            for (int i=0; i<N; i++)
+            {
+                ls.add(in.next());
+            }
+
+            System.out.println(function(ls));
+
+        }
+
     }
 
